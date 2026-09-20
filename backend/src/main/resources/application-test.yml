@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:bajrix;MODE=MySQL;DB_CLOSE_DELAY=-1
+    username: root
+    password: root123
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+  flyway:
+    enabled: false

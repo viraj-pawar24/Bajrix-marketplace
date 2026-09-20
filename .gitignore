@@ -1,0 +1,25 @@
+# Backend (Maven / Java)
+backend/target/
+backend/.mvn/
+backend/*.iml
+*.class
+*.jar
+!backend/.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Frontend build output (frontend/ has its own .gitignore for node_modules etc.)
+frontend/dist/
+frontend/dist-ssr/
+
+# Logs
+*.log
